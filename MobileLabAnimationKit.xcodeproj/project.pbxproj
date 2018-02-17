@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6A3A63FF2034A7B70084FA68 /* MobileLabAnimationsKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileLabAnimationsKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3A63FF2034A7B70084FA68 /* MobileLabAnimationKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileLabAnimationKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A3A64022034A7B70084FA68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A3A64162034C0C70084FA68 /* UIViewAnimationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAnimationsViewController.swift; sourceTree = "<group>"; };
 		6A3A64192034C20A0084FA68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		6A3A63F62034A7B70084FA68 = {
 			isa = PBXGroup;
 			children = (
-				6A3A64012034A7B70084FA68 /* MobileLabAnimationsKit */,
+				6A3A64012034A7B70084FA68 /* MobileLabAnimationKit */,
 				6A3A64002034A7B70084FA68 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 		6A3A64002034A7B70084FA68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A3A63FF2034A7B70084FA68 /* MobileLabAnimationsKit.app */,
+				6A3A63FF2034A7B70084FA68 /* MobileLabAnimationKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6A3A64012034A7B70084FA68 /* MobileLabAnimationsKit */ = {
+		6A3A64012034A7B70084FA68 /* MobileLabAnimationKit */ = {
 			isa = PBXGroup;
 			children = (
 				6A3A64022034A7B70084FA68 /* AppDelegate.swift */,
@@ -69,7 +69,7 @@
 				6A3A64282034CBDE0084FA68 /* AnimationLoopViewController.swift */,
 				6A3A64182034C20A0084FA68 /* Resources */,
 			);
-			path = MobileLabAnimationsKit;
+			path = MobileLabAnimationKit;
 			sourceTree = "<group>";
 		};
 		6A3A64182034C20A0084FA68 /* Resources */ = {
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6A3A63FE2034A7B70084FA68 /* MobileLabAnimationsKit */ = {
+		6A3A63FE2034A7B70084FA68 /* MobileLabAnimationKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A3A64112034A7B70084FA68 /* Build configuration list for PBXNativeTarget "MobileLabAnimationsKit" */;
+			buildConfigurationList = 6A3A64112034A7B70084FA68 /* Build configuration list for PBXNativeTarget "MobileLabAnimationKit" */;
 			buildPhases = (
 				6A3A63FB2034A7B70084FA68 /* Sources */,
 				6A3A63FC2034A7B70084FA68 /* Frameworks */,
@@ -107,9 +107,9 @@
 			);
 			dependencies = (
 			);
-			name = MobileLabAnimationsKit;
+			name = MobileLabAnimationKit;
 			productName = MobileLabAnimationsKit;
-			productReference = 6A3A63FF2034A7B70084FA68 /* MobileLabAnimationsKit.app */;
+			productReference = 6A3A63FF2034A7B70084FA68 /* MobileLabAnimationKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6A3A63FA2034A7B70084FA68 /* Build configuration list for PBXProject "MobileLabAnimationsKit" */;
+			buildConfigurationList = 6A3A63FA2034A7B70084FA68 /* Build configuration list for PBXProject "MobileLabAnimationKit" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -141,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6A3A63FE2034A7B70084FA68 /* MobileLabAnimationsKit */,
+				6A3A63FE2034A7B70084FA68 /* MobileLabAnimationKit */,
 			);
 		};
 /* End PBXProject section */
@@ -307,10 +307,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = MobileLabAnimationsKit/Resources/Info.plist;
+				DEVELOPMENT_TEAM = HY8AUX8L27;
+				INFOPLIST_FILE = MobileLabAnimationKit/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mobilelabclass.MobileLabAnimationsKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilelabclass.MobileLabAnimationKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,10 +322,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = MobileLabAnimationsKit/Resources/Info.plist;
+				DEVELOPMENT_TEAM = HY8AUX8L27;
+				INFOPLIST_FILE = MobileLabAnimationKit/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mobilelabclass.MobileLabAnimationsKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilelabclass.MobileLabAnimationKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6A3A63FA2034A7B70084FA68 /* Build configuration list for PBXProject "MobileLabAnimationsKit" */ = {
+		6A3A63FA2034A7B70084FA68 /* Build configuration list for PBXProject "MobileLabAnimationKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A3A640F2034A7B70084FA68 /* Debug */,
@@ -344,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A3A64112034A7B70084FA68 /* Build configuration list for PBXNativeTarget "MobileLabAnimationsKit" */ = {
+		6A3A64112034A7B70084FA68 /* Build configuration list for PBXNativeTarget "MobileLabAnimationKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A3A64122034A7B70084FA68 /* Debug */,

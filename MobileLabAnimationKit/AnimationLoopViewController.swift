@@ -1,6 +1,6 @@
 //
 //  AnimationLoopViewController.swift
-//  MobileLabAnimationsKit
+//  MobileLabAnimationKit
 //
 //  Created by Nien Lam on 2/14/18.
 //  Copyright © 2018 Mobile Lab. All rights reserved.
