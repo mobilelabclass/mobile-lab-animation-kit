@@ -50,7 +50,7 @@ class AnimationLoopViewController: UIViewController, UIGestureRecognizerDelegate
         
         // Setup an the update loop.
         let displayLink = CADisplayLink(target: self, selector: #selector(updateLoop))
-        displayLink.add(to: RunLoop.current, forMode: RunLoopMode.defaultRunLoopMode)
+        displayLink.add(to: RunLoop.current, forMode: RunLoop.Mode.default)
     }
     
     @objc

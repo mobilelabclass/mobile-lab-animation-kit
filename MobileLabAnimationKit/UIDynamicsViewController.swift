@@ -97,7 +97,7 @@ class UIDynamicsViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let theTouch = touches.first {
             currentLocation = theTouch.location(in: self.view)
-            let offset = UIOffsetMake(20, 20)
+            let offset = UIOffset.init(horizontal: 20, vertical: 20)
             attachment = UIAttachmentBehavior(item: blueBoxView!,
                                               offsetFromCenter: offset,
                                               attachedToAnchor: currentLocation!)
